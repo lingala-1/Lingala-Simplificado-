@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingala Simplificado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>LINGALA SIMPLIFICADO</h1>
+    <p>Inscreva-se agora e comece a aprender com um professor experiente.</p>
+    <nav>
+      <a href="#inscricao">Inscrever-se</a>
+      <a href="#aula">Área do Aluno</a>
+      <a href="#pagamento">Pagamento</a>
+    </nav>
+  </header>
+
+  <div class="container" id="inscricao">
+    <h2>Inscrição</h2>
+    <form>
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" required>
+
+      <label for="whatsapp">WhatsApp</label>
+      <input type="text" id="whatsapp" required>
+
+      <label for="numero">Número</label>
+      <input type="text" id="numero" required>
+
+      <label for="senha">Senha</label>
+      <input type="password" id="senha" required>
+
+      <label for="curso">Curso desejado</label>
+      <select id="curso" required>
+        <option value="basico">Básico</option>
+        <option value="medio">Médio</option>
+        <option value="avancado">Avançado</option>
+      </select>
+
+      <button type="submit">Criar Conta</button>
+    </form>
+  </div>
+
+  <div class="container" id="aula">
+    <h2>Área do Aluno</h2>
+    <ul>
+      <li><a href="#">📖 Ver lições</a></li>
+      <li><a href="#">🔊 Ouvir áudio</a></li>
+      <li><a href="#">🧠 Fazer quizzes</a></li>
+      <li><a href="#">📈 Ver progresso</a></li>
+    </ul>
+  </div>
+
+  <div class="container" id="pagamento">
+    <h2>Pagamento</h2>
+    <p>Transferência bancária ou Multicaixa Express para: <strong>937451902</strong></p>
+    <label for="comprovativo">Enviar comprovativo de pagamento</label>
+    <input type="file" id="comprovativo" accept="image/*,application/pdf">
+    <button>Enviar Comprovativo</button>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lingala Simplificado - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
